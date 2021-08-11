@@ -12,6 +12,28 @@ package com.mycompany.repasoparcial2021.objetos;
 public class Profesor {
     
     private String legajo;
+
+    public Profesor() {
+    }
+
+    public Profesor(String legajo) {
+        this.legajo = legajo;
+    }
+
+    public String getLegajo() {
+        return legajo;
+    }
+
+    public void setLegajo(String legajo) {
+        this.legajo = legajo;
+    }
+
+    @Override
+    public String toString() {
+        return legajo;
+    }
+    
+    
     
     
 }
